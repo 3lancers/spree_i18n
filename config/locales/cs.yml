@@ -251,9 +251,9 @@ cs:
   all: Vše
   all_departments: "Všechna oddělení"
   allow_backorders: "Povolit zpoždění dodávky"
-  allow_ssl_in_development_and_test: "Povolit užívání SSL při vývoji a testování režimů"
-  allow_ssl_in_production: "Povolit užívání SSL při výrobním režimu"
-  allow_ssl_in_staging: "Povolit užívání SSL při inscenačním režimu"
+  allow_ssl_in_development_and_test: "Povolit užívání SSL vývojovém a testovacím prostřední"
+  allow_ssl_in_production: "Povolit užívání SSL v produkčním prostředí"
+  allow_ssl_in_staging: "Povolit užívání SSL ve staging prostředí"
   allowed_ssl_in_production_mode: "SSL v módu production %{no}bude používáno"
   already_registered: "Jste už registrováni?"
   alt_text: "Další text"
@@ -340,6 +340,7 @@ cs:
   charges: Výdaje
   checkout: "K pokladně"
   cheque: Šek
+  choose_currency: "Vyberte měnu"
   city: Město
   clone: Klonovat
   close_all_adjustments: "Uzavřít přizpůsobení"
@@ -380,8 +381,10 @@ cs:
   credit_total: "Kredit celkem"
   credits: Kredity
   currency: Měna
+  currency_decimal_mark: "Oddělovač desetinných míst"
   currency_settings: "Nastavení měn"
-  currency_symbol_position: "Přidat symbol měny před nebo po dolarové značce?"
+  currency_symbol_position: "Přidat symbol měny před nebo za částku?"
+  currency_thousands_separator: "Oddělovač tisíců"
   current: Současný
   customer: Zákazník
   customer_details: "Podrobnosti o zákazníkovi"
@@ -517,6 +520,7 @@ cs:
   height: Výška
   hello_user: "Vítej, uživateli"
   history: Historie
+  hide_cents: "Skrýt desetinná místa ceny"
   home: Obchod
   icon: Icon
   icons_by: "Piktogram vytvořil"
