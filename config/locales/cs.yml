@@ -221,6 +221,7 @@ cs:
   add_country: "Přidat stát"
   add_new_header: "Přidat nové záhlaví"
   add_new_style: "Přidat nový styl"
+  add_one: "Přidejte nějaké"
   add_option_type: "Přidat typ volby"
   add_option_types: "Přidat typy volby"
   add_option_value: "Přidat hodnotu volby"
@@ -305,6 +306,7 @@ cs:
   back_to_stock_locations_list: "Zpět na seznam skladu"
   back_to_stock_movements_list: "Zpět do seznamu zboží ve skladu"
   back_to_shipping_categories_list: "Zpět na seznam kategorie dopravy"
+  back_to_users_list: "Zpět na seznam uživatelů"
   backordered: "Zpožděná dodávka"
   backorderable: "Možnost objednávky"
   backordering_is_allowed: "Zpoždění dodávky %{no}povoleno"
@@ -643,6 +645,7 @@ cs:
   no_match_found: "Nebyla nalezena žádná shoda"
   no_orders_found: "Nebyly nalezeny žádné objednávky"
   no_products_found: "Nebyly nalezeny žádné výrobky"
+  no_promotions_found: "Nebyly nalezeny žádné propagace"
   no_results: "Žádné výsledky"
   no_tracking_present: "Sledování zásilky není dostupné"
   no_rules_added: "Žádné přidané pravidla"
@@ -1104,6 +1107,8 @@ cs:
   sort_ordering: "Třídit uspořádání"
   special_instructions: "Osobé pokyny"
   spree: 
+    api:
+      generate_key: "Generuj API klíč"
     date: Datum
     date_picker: 
       format: "%Y/%m/%d"
@@ -1169,8 +1174,8 @@ cs:
   test_mailer: 
     test_email: 
       greeting: Gratulujeme!
-      message: "Pokud jste obdřeli tento email, Váše nastavení emailu je správné."
-      subject: "Testovací pošta"
+      message: "Pokud jste obdrželi tento email, Vaše nastavení emailové brány je správné."
+      subject: "Testovací email"
   test_mode: "Testovací režim"
   thank_you_for_your_order: "Děkujeme za Váš nákup. Doporučujeme Vám vytisknout si kopii této stránky."
   there_were_problems_with_the_following_fields: "Jsou problémy v následujících oblastech"
@@ -1180,7 +1185,7 @@ cs:
   to_state: "To State"
   total: Celkem
   tracking: Sledování
-  tracking_url_placeholder: "Sledovácí url pro doručovací služby"
+  tracking_url_placeholder: "Sledovací url pro doručovací služby"
   transaction: Transakce
   transactions: Transakce
   tree: Strom
@@ -1191,7 +1196,7 @@ cs:
   unable_to_authorize_credit_card: "Kreditní kartu nelze autorizovat."
   unable_to_capture_credit_card: "Částku nelze z kreditní karty odečíst."
   unable_to_connect_to_gateway: "Nelze se připojit k bráně."
-  unable_to_save_order: "Nelze uložit obejdnávku"
+  unable_to_save_order: "Nelze uložit objednávku"
   under_paid: Nedoplaceno
   under_price: "Under %{price}"
   unrecognized_card_type: "Typ karty nebyl rozpoznán"
