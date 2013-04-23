@@ -28,6 +28,16 @@ module SpreeI18n
 
     config.to_prepare &method(:activate).to_proc
 
+    # Prevents the app from breaking when a translation is not present on the
+    # default locale. It should search for the translation in all supported
+    # locales
+    config.to_prepare do
+      locales = SpreeI18n::Config.supported_locales
+      Globalize.fallbacks = locales.inject({}) do |fallbacks, locale|
+        fallbacks.merge(locale => locales)
+      end
+    end
+
     protected
     def self.add(pattern)
       files = Dir[File.join(File.dirname(__FILE__), '../..', pattern)]
