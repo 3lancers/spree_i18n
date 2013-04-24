@@ -341,6 +341,7 @@ cs:
   checkout: "K pokladně"
   cheque: Šek
   choose_currency: "Vyberte měnu"
+  choose_dashboard_locale: "Vyberte jazyk přehledu"
   city: Město
   clone: Klonovat
   close_all_adjustments: "Uzavřít přizpůsobení"
@@ -436,10 +437,10 @@ cs:
   editing_tracker: "Úprava stopaře analytik přístupů"
   editing_user: "Můj účet"
   editing_zone: "Úprava zóny"
-  email: Email
+  email: "Email"
   email_address: "Emailová adresa"
   email_server_settings_description: "Změnit nastavení odesílání emailů"
-  empty: Prázdny
+  empty: "Prázdný"
   empty_cart: "Vyprázdnit košík"
   enable_login_via_login_password: "Použít přihlášení emailem a heslem"
   enable_login_via_openid: "Použít přihlášení s OpenID"
@@ -1167,6 +1168,7 @@ cs:
   tax_type: "Druh daně"
   taxon: Taxon
   taxon_edit: "Upravit taxon"
+  taxon_placeholder: "Přidat taxon"
   taxonomies: Taxonomie
   taxonomies_setting_description: "Vytvořit a spravovat taxonomie"
   taxonomy: Taxonomy
