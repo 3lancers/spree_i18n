@@ -324,7 +324,7 @@ cs:
   cannot_create_payment_without_payment_methods: "Vytvoření platby objednávky nejde bez uvedení platební metody."
   cannot_create_returns: "Nemohu vytvořit položku pro vrácení zboží (RMA), protože zboží ještě nebylo odesláno."
   cannot_perform_operation: "Nelze provést požadovanou operaci"
-  capture: strhnout
+  capture: Strhnout
   card_code: "Bezpečnostní číslo karty"
   card_details: "Podrobnosti o kartě"
   card_number: "Číslo karty"
@@ -392,7 +392,7 @@ cs:
   customer_details_updated: "Údaje zákazníka byly aktualizovány"
   customer_search: "Vyhledávání zákazníků"
   cut: Cut
-  date_completed: "Datum dokončený"
+  date_completed: "Datum dokončení"
   date_created: "Datum vytvoření"
   date_range: "Datum (od-do)"
   debit: Dluh
@@ -452,7 +452,7 @@ cs:
   enter_token: "Zadejte známku"
   environment: Prostředí
   error: Chyba
-  error_user_destroy_with_orders: "Uživatelé s dokončenými objednávkami nesmí být odstraněný"
+  error_user_destroy_with_orders: "Uživatelé s dokončenými objednávkami nesmí být odstranění"
   errors: 
     messages: 
       could_not_create_taxon: "Nelze vytvořit taxon"
@@ -610,7 +610,7 @@ cs:
   my_account: "Můj účet"
   my_orders: "Mé objednávky"
   name: Název
-  name_or_sku: "Nazev nebo SKU"
+  name_or_sku: "Název nebo SKU"
   new: Nový
   new_adjustment: "Nová úprava"
   new_billing_integration: "Nové začlenění fakturace"
@@ -717,7 +717,7 @@ cs:
     awaiting_return: "Čeká na vrácení"
     canceled: "Zrušena"
     cart: Košik
-    complete: "Dokončení objednávky"
+    complete: "Dokončení"
     confirm: "Potvrzena"
     delivery: "Doprava zboží"
     order_summary: "Shrnutí objednávky"
@@ -762,15 +762,15 @@ cs:
   payment_processor_choose_link: "Platební metody"
   payment_state: "Stav platby"
   payment_states: 
-    balance_due: Nedoplatek
-    checkout: Pokladna
-    completed: Dokončený
-    credit_owed: "Kredit dluží"
-    failed: Neúspěšně
-    paid: Placený
-    pending: "Čekající"
-    processing: Zpracování
-    void: Prázdno
+    balance_due: "Neuhrazeno"
+    checkout: "Pokladna"
+    completed: "Dokončeno"
+    credit_owed: "Dluh"
+    failed: "Neúspěch"
+    paid: "Uhrazeno"
+    pending: "Čeká se"
+    processing: "Zpracovává se"
+    void: "Zrušeno"
   payment_updated: "Čeká se na platbu"
   payments: Platby
   pending_payments: "Nevyřízené platby"
@@ -1018,7 +1018,7 @@ cs:
   s3_used_for_product_images: "S3 se používá pro obrázky zboží"
   sales_tax: "Daň z prodeje"
   sales_total: "Prodej celkem"
-  sales_total_description: "Slevy na všechny objednávky "
+  sales_total_description: "Slevy na všechny objednávky"
   save_and_continue: "Pokračovat"
   save_preferences: "Uložit nastavení"
   say_no: Ne
@@ -1037,13 +1037,13 @@ cs:
   send_copy_of_all_mails_to: "Zasílat kopie všech emailů na emailovou adresu"
   send_copy_of_orders_mails_to: "Zasílat kopie všech objednávek na emailovou adresu"
   send_mails_as: "Posílat emaily jako"
-  send_me_reset_password_instructions: "Send me reset password instructions"
+  send_me_reset_password_instructions: "Odeslat instrukce k obnovení hesla"
   send_order_mails_as: "Posílat emaily s objednávkami jako"
   server: Server
   server_error: "Server nahlásil chybu"
   setting: Nastavení
   settings: Nastavení
-  ship: vypravit
+  ship: Odeslat
   ship_address: "Doručovací adresa"
   shipment: Doprava
   shipment_details: "Podrobnosti dopravy"
@@ -1060,13 +1060,13 @@ cs:
   shipment_state: "Stav dodávky"
   shipment_states: 
     backorder: "V externím skladu"
-    partial: Částečný
-    pending: Čekající
-    ready: Připraveno
-    shipped: Dodávány
+    partial: "Částečně"
+    pending: "Čekající"
+    ready: "Připraveno"
+    shipped: "Odesláno"
   shipment_updated: "Doprava upravena"
-  shipments: Dopravy
-  shipped: Vypraveno
+  shipments: Doprava
+  shipped: "Odesláno"
   shipping: Doprava
   shipping_address: "Doručovací adresa"
   shipping_categories: "Kategorie dopravy"
@@ -1238,7 +1238,7 @@ cs:
   vat: DPH
   version: Verze
   view_shipping_options: "Zobrazit možnosti dopravy"
-  void: Prázdné
+  void: Zrušit
   website: Stránka
   weight: Váha
   welcome_to_sample_store: "Vítejte ve zkušebním obchodě"
