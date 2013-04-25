@@ -1061,7 +1061,7 @@ cs:
   shipment_states: 
     backorder: "V externím skladu"
     partial: "Částečně"
-    pending: "Čekající"
+    pending: "Čeká se"
     ready: "Připraveno"
     shipped: "Odesláno"
   shipment_updated: "Doprava upravena"
@@ -1153,9 +1153,9 @@ cs:
   street_address_2: "Číslo ulice"
   subtotal: Mezisoučet
   subtract: Odečet
-  successfully_created: "%{resource} byl úspěšně vytvořen!"
-  successfully_removed: "%{resource} byl úspěšně odstránen"
-  successfully_updated: "%{resource} byl úspěšně aktualizovan!"
+  successfully_created: "Záznam %{resource} byl úspěšně vytvořen."
+  successfully_removed: "Záznam %{resource} byl úspěšně odstraněn."
+  successfully_updated: "Záznam %{resource} byl úspěšně upraven."
   system: Systém
   tax: Daň
   tax_categories: "Daňové kategorie"
