@@ -22,11 +22,11 @@ cs:
         address1: Adresa
         address2: "Adresa (pokr.)"
         city: Město
-        country: Stát
+        country: Země
         firstname: Jméno
         lastname: Příjmení
         phone: Telefon
-        state: Země
+        state: Stát
         zipcode: PSČ
       spree/country: 
         iso: ISO
@@ -41,7 +41,7 @@ cs:
         verification_value: "Verifikační význam"
         year: Rok
       spree/inventory_unit: 
-        state: Země
+        state: Stát
       spree/line_item: 
         price: Cena
         quantity: Množství
@@ -67,7 +67,7 @@ cs:
         firstname: Jméno
         lastname: Přijmení
         phone: Telefon
-        state: Země
+        state: Stát
         zipcode: PSČ
       spree/order/ship_address: 
         address1: Ulice
@@ -75,7 +75,7 @@ cs:
         firstname: Jmeno
         lastname: Přijmeni
         phone: Telefon
-        state: Země
+        state: Stát
         zipcode: PSČ
       spree/payment_method: 
         name: Název
@@ -171,8 +171,8 @@ cs:
         one: Platba
         other: Platby
       spree/product: 
-        one: Výrobek
-        other: Výrobky
+        one: Zboží
+        other: Zboží
       spree/property: 
         one: Vlastnost
         other: Vlastnosti
@@ -192,8 +192,8 @@ cs:
         one: "Kategorie dopravy"
         other: "Kategorie dopravy"
       spree/state: 
-        one: Země
-        other: Země
+        one: Stát
+        other: Státy
       spree/tax_category: 
         one: "Daňová kategorie"
         other: "Daňové kategorie"
@@ -218,15 +218,15 @@ cs:
   add: Přidat
   add_action_of_type: "Přidat typ akce"
   add_category: "Přidat kategorii"
-  add_country: "Přidat stát"
+  add_country: "Přidat zemi"
   add_new_header: "Přidat nové záhlaví"
   add_new_style: "Přidat nový styl"
   add_one: "Přidejte nějaké"
   add_option_type: "Přidat typ volby"
   add_option_types: "Přidat typy volby"
   add_option_value: "Přidat hodnotu volby"
-  add_product: "Přidat výrobek"
-  add_product_properties: "Přidat vlastnosti výrobku"
+  add_product: "Přidat zboží"
+  add_product_properties: "Přidat vlastnosti zboží"
   add_rule_of_type: "Přidat typické pravidlo"
   add_stock: "Přidat zboží do skladu"
   add_stock_management: "Nastavení počtu zboží"
@@ -243,9 +243,9 @@ cs:
   admin: 
     mail_methods: 
       send_testmail: "Odeslat testovací email"
-      testmail: 
-        delivery_error: "Při zasílání testovací pošty došlo k chybě"
-        delivery_success: "Testmail úspěšně odeslán"
+      testmail:
+        delivery_error: "Při zasílání testovacího emailu došlo k chybě"
+        delivery_success: "Testovací email úspěšně odeslán"
         error: "Chyba testovacího emailu"
   administration: Administrace
   all: Vše
@@ -289,9 +289,9 @@ cs:
   back_to_orders_list: "Zpět na seznam objednávek"
   back_to_payment_methods_list: "Zpět na seznam platebních možností"
   back_to_payments_list: "Zpět na seznam platby"
-  back_to_products_list: "Zpět na seznam výrobků"
+  back_to_products_list: "Zpět na seznam zboží"
   back_to_promotions_list: "Zpět na seznam propagace"
-  back_to_properties_list: "Zpět na seznam výrobků"
+  back_to_properties_list: "Zpět na seznam zboží"
   back_to_prototypes_list: "Zpět na seznam šablon"
   back_to_reports_list: "Zpět na seznam zpráv"
   back_to_shipping_categories: "Zpět na seznam kategorií dopravy"
@@ -305,7 +305,7 @@ cs:
   back_to_zones_list: "Zpět na seznam zón"
   back_to_stock_locations_list: "Zpět na seznam skladu"
   back_to_stock_movements_list: "Zpět do seznamu zboží ve skladu"
-  back_to_shipping_categories_list: "Zpět na seznam kategorie dopravy"
+  back_to_shipping_categories_list: "Zpět na seznam kategorií dopravy"
   back_to_users_list: "Zpět na seznam uživatelů"
   backordered: "Zpožděná dodávka"
   backorderable: "Možnost objednávky"
@@ -363,8 +363,8 @@ cs:
   cost_price: Náklady
   count_of_reduced_by: "Počet '%{name}' snížen o %{count}"
   count_on_hand: 'Počet zboží k dispozici'
-  country: Stát
-  countries: Státy
+  country: Země
+  countries: Země
   country_based: "Založeno na zemi"
   coupon: Kupón
   coupon_code: "Kód kupónu"
@@ -423,7 +423,7 @@ cs:
   editing_option_type: "Úprava typu volby"
   editing_option_types: "Úprava typů volby"
   editing_payment_method: "Upravení platebních metod"
-  editing_product: "Úprava výrobku"
+  editing_product: "Úprava zboží"
   editing_product_group: "Upravení produktové skupiny"
   editing_promotion: "Úprava propagace"
   editing_property: "Úprava vlastnosti"
@@ -445,7 +445,7 @@ cs:
   enable_login_via_login_password: "Použít přihlášení emailem a heslem"
   enable_login_via_openid: "Použít přihlášení s OpenID"
   enable_mail_delivery: "Povolit doručování emailů"
-  ending_in: "Ukončení v"
+  ending_in: "Končící"
   enter_at_least_five_letters: "Zadejte alespoň pět písmen z jména zákazníka"
   enter_exactly_as_shown_on_card: "Zadejte prosím přesně tak, jak je napsáno na kartě"
   enter_password_to_confirm: "Potřebujeme Vaše současné heslo pro potvrzení změn"
@@ -456,8 +456,8 @@ cs:
   errors: 
     messages: 
       could_not_create_taxon: "Nelze vytvořit taxon"
-      no_payment_methods_available: "Žádné platební metody nelze konfigurovat v tomto prostředí"
-      no_shipping_methods_available: "Způsoby dopravy nejsou dostupný pro zvolené místo, změňte prosím adresu a zkuste to znovu."
+      no_payment_methods_available: "Nejsou k dispozici žádné způsoby platby"
+      no_shipping_methods_available: "Způsoby dopravy nejsou dostupné pro zvolené místo, změňte prosím adresu a zkuste to znovu."
   errors_prohibited_this_record_from_being_saved: 
     one: "Chyba v ukládání tohoto záznamu"
     other: "Chyby v ukládání tohoto záznamu"
@@ -589,7 +589,7 @@ cs:
   maestro_or_solo_cards: "Kreditní karty Maestro/Solo"
   mail_delivery_enabled: "Posílání emailů je povoleno"
   mail_delivery_not_enabled: "Posílání emailů není povoleno"
-  mail_methods: "Poštovní metody"
+  mail_methods: "Nastavení emailů"
   mail_server_preferences: "Nastavení odesílání emailů"
   make_refund: "Provést vrácení"
   mark_shipped: "Označit jako odeslané"
@@ -618,15 +618,15 @@ cs:
   new_customer: "Nový zákazník"
   new_group: "Nová skupina"
   new_image: "Nový obrázek"
-  new_mail_method: "Nový způsob zasílání pošty"
+  new_mail_method: "Nové nastavení emailů"
   new_option_type: "Nový typ volby"
   new_option_value: "Nová hodnota volby"
   new_order: "Nová objednávka"
   new_order_completed: "Nová objednávka hotová"
   new_payment: "Nová platba"
   new_payment_method: "Nový způsob platby"
-  new_product: "Nový výrobek"
-  new_product_group: "Nová skupina výrobků"
+  new_product: "Nové zboží"
+  new_product_group: "Nová skupina zboží"
   new_promotion: "Nová propagace"
   new_property: "Nová vlastnost"
   new_prototype: "Nová šablona"
@@ -646,10 +646,11 @@ cs:
   new_variant: "Nová varianta"
   new_zone: "Nová zóna"
   next: Další
+  no_mail_methods_defined: "Není definováno žádné nastavení emailů"
   no_items_in_cart: "V košíku není žádné zboží"
   no_match_found: "Nebyla nalezena žádná shoda"
   no_orders_found: "Nebyly nalezeny žádné objednávky"
-  no_products_found: "Nebyly nalezeny žádné výrobky"
+  no_products_found: "Nebylo nalezeno žádné zboží"
   no_promotions_found: "Nebyly nalezeny žádné propagace"
   no_results: "Žádné výsledky"
   no_tracking_present: "Sledování zásilky není dostupné"
@@ -665,11 +666,11 @@ cs:
   note: Poznámka
   notice_messages: 
     option_type_removed: "Možnost byla úspěšně odstraněná"
-    product_cloned: "Výrobek byl opakován"
-    product_deleted: "Výrobek byl smazán"
-    product_not_cloned: "Výrobek nelze opakovat"
-    product_not_deleted: "Výrobek nelze smazán"
-    variant_deleted: "Variantu lze odstranit"
+    product_cloned: "Zboží bylo duplikováno"
+    product_deleted: "Zboží bylo smazáno"
+    product_not_cloned: "Zboží nelze duplikovat"
+    product_not_deleted: "Zboží nelze odstranit"
+    variant_deleted: "Varianta odstraněna"
     variant_not_deleted: "Variantu nelze odstranit"
   on_hand: Dostupný
   one_default_category_with_default_tax_rate: "Měli byste konfigurovat přesně jednu výchozí kategorii daňové sazby Vaši zemi."
@@ -708,22 +709,22 @@ cs:
   order_not_in_system: "Toto číslo objednávky v systému není"
   order_number: "Číslo objednávky"
   order_operation_authorize: Autorizovat
-  order_processed_but_following_items_are_out_of_stock: "Vaše objednávka byla zpracována, ale následující zboží není na skladě:"
-  order_processed_successfully: "Vaše objednávka byla úspěšně zpracována"
+  order_processed_but_following_items_are_out_of_stock: "Vaše objednávka byla odeslána, ale následující zboží není na skladě:"
+  order_processed_successfully: "Vaše objednávka byla úspěšně odeslána"
   order_state: 
-    address: Adresa
-    adjustments: Úpravy
-    awaiting_return: "Čeká na návrat"
-    canceled: Zrušit
+    address: "Adresa"
+    adjustments: "Úpravy"
+    awaiting_return: "Čeká na vrácení"
+    canceled: "Zrušena"
     cart: Košik
-    complete: Dokončený
-    confirm: Potvrzeno
-    delivery: Čeká na dodávku
+    complete: "Dokončení objednávky"
+    confirm: "Potvrzena"
+    delivery: "Doprava zboží"
     order_summary: "Shrnutí objednávky"
-    payment: Platba
-    resumed: Obnovený
-    returned: Vracený
-    skrill: skrill
+    payment: "Platba"
+    resumed: "Obnovena"
+    returned: "Vrácena"
+    skrill: "Skrill"
   order_sure_want_to: "Jste si jisti, že chcete %{event} tuto objednávku?"
   order_total: "Celková cena objednávky"
   order_total_message: "Celková suma, která bude odečtena z Vaší karty"
@@ -767,7 +768,7 @@ cs:
     credit_owed: "Kredit dluží"
     failed: Neúspěšně
     paid: Placený
-    pending: "Očekávající vyřízení"
+    pending: "Čekající"
     processing: Zpracování
     void: Prázdno
   payment_updated: "Čeká se na platbu"
@@ -792,15 +793,15 @@ cs:
   problems_processing_order: "Došlo k problému při zpracování Vaší objednávky"
   proceed_as_guest: "Ne, pokračovat jako host"
   process: Zpracovat
-  product: Výrobek
-  product_details: "Podrobnosti k výrobku"
-  product_group: "Skupina výrobku"
-  product_group_invalid: "Skupina výrobku má neplatný rozsah"
-  product_groups: "Skupiny výrobku"
-  product_has_no_description: "Výrobek nemá žádný popis"
-  product_properties: "Vlastnosti výrobku"
+  product: Zboží
+  product_details: "Podrobnosti ke zboží"
+  product_group: "Skupina zboží"
+  product_group_invalid: "Skupina zboží má neplatný rozsah"
+  product_groups: "Skupiny zboží"
+  product_has_no_description: "Zboží nemá žádný popis"
+  product_properties: "Vlastnosti zboží"
   product_rule: 
-    choose_products: "Vyberte výrobky"
+    choose_products: "Vyberte zboží"
     label: "Objednávka musí obsahovat (vyberte) z těchto výroků"
     match_all: Vše
     match_any: "Alespoň jeden"
@@ -810,24 +811,24 @@ cs:
   product_scopes: 
     groups: 
       price: 
-        description: "Rozsahy pro výběr výrobků založené na ceně"
+        description: "Rozsahy pro výběr zboží založené na ceně"
         name: Cena
       search: 
-        description: "Rozsahy pro výběr výrobků založené na názvu, klíčových slovech a popisu výrobku"
+        description: "Rozsahy pro výběr zboží založené na názvu, klíčových slovech a popisu zboží"
         name: "Textové vyhledávání"
       taxon: 
-        description: "Rozsahy pro výběr výrobků založené na taxonech"
+        description: "Rozsahy pro výběr zboží založené na taxonech"
         name: Taxon
       values: 
-        description: "Rozsahy pro výběr výrobků založené na volbě a hodnotách vlastnosti"
+        description: "Rozsahy pro výběr zboží založené na volbě a hodnotách vlastnosti"
         name: Hodnoty
     scopes: 
       ascend_by_name: 
-        name: "Vzestupně podle názvu výrobku"
+        name: "Vzestupně podle názvu zboží"
       ascend_by_updated_at: 
         name: "Vzestupně podle data poslední změny"
       descend_by_name: 
-        name: "Sestupně podle názvu výrobku"
+        name: "Sestupně podle názvu zboží"
       descend_by_updated_at: 
         name: "Sestupně podle data poslední změny"
       in_name: 
@@ -886,38 +887,38 @@ cs:
         sentence: "with IDs <em>%s</em>"
       with_ids: 
         args: 
-          ids: IDs
-        description: "Vyberte určitý výrobky"
-        name: "Výrobky s IDs"
-        sentence: "with IDs <em>%s</em>"
+          ids: ID
+        description: "Vyberte určité zboží"
+        name: "Zboží s ID"
+        sentence: "s ID <em>%s</em>"
       with_option: 
         args: 
           option: Volba
-        description: "Vybere všechny výrobky, které mají uvedenou volbu (např. barva)"
+        description: "Vybere všechno zboží, které má uvedenou volbu (např. barva)"
         name: "S volbou"
         sentence: "s volbou <em>%s</em>"
       with_option_value: 
         args: 
           option: Volba
           value: Hodnota
-        description: "Vybere všechny výrobky, které mají alespoň jednu variantu s uvedenou volbou a hodnotou (např. barva:červená)"
+        description: "Vybere všechno zboží, které má alespoň jednu variantu s uvedenou volbou a hodnotou (např. barva:červená)"
         name: "S volbou a hodnotou"
         sentence: "s volbou <em>%s</em> a hodnotou <em>%s</em>"
       with_property: 
         args: 
           property: Vlastnost
-        description: "Vybere všechny výrobky, které mají uvedenou vlastnost (např. váha)"
+        description: "Vybere všechno zboží, které má uvedenou vlastnost (např. váha)"
         name: "S vlastností"
         sentence: "s vlastností <em>%s</em>"
       with_property_value: 
         args: 
           property: Vlastnost
           value: Hodnota
-        description: "Vybere všechny výrobky, které mají alespoň jednu variantu s uvedenou vlastností a hodnotou (např. váha:10kg)"
+        description: "Vybere všechno zboží, které má alespoň jednu variantu s uvedenou vlastností a hodnotou (např. váha:10kg)"
         name: "S vlastností a hodnotou"
         sentence: "s vlastností <em>%s</em> a hodnotou <em>%s</em>"
-  products: Výrobky
-  products_with_zero_inventory_display: "Výrobky, které nejsou na skladě, %{not}budou zobrazeny"
+  products: Zboží
+  products_with_zero_inventory_display: "Zboží, které není na skladě, %{not}bude zobrazeno"
   promotion: Propagace
   promotion_action: "Propagační akce"
   promotion_action_types: 
@@ -1011,10 +1012,10 @@ cs:
   s3_access_key: "Přístupový klíč"
   s3_bucket: Koš
   s3_headers: "S3 Záhlaví"
-  s3_not_used_for_product_images: "S3 se nepoužívá pro obrázky výrobků"
+  s3_not_used_for_product_images: "S3 se nepoužívá pro obrázky zboží"
   s3_protocol: "S3 Protokol"
   s3_secret: "Tajný klíč"
-  s3_used_for_product_images: "S3 se používá pro obrázky výrobků"
+  s3_used_for_product_images: "S3 se používá pro obrázky zboží"
   sales_tax: "Daň z prodeje"
   sales_total: "Prodej celkem"
   sales_total_description: "Slevy na všechny objednávky "
@@ -1060,8 +1061,8 @@ cs:
   shipment_states: 
     backorder: "V externím skladu"
     partial: Částečný
-    pending: Očekávaný
-    ready: Hotově
+    pending: Čekající
+    ready: Připraveno
     shipped: Dodávány
   shipment_updated: "Doprava upravena"
   shipments: Dopravy
@@ -1158,7 +1159,7 @@ cs:
   system: Systém
   tax: Daň
   tax_categories: "Daňové kategorie"
-  tax_categories_setting_description: "Nastavit daňové kategorie výrobkům - určit, které výrobky budou podléhat zdanění."
+  tax_categories_setting_description: "Nastavit daňové kategorie zboží - určit, které zboží bude podléhat zdanění."
   tax_category: "Daňová kategorie"
   tax_rates: "Sazby daně"
   tax_rates_description: "Nastavení a konfigurace daňových sazeb"
@@ -1184,7 +1185,7 @@ cs:
       subject: "Testovací email"
   test_mode: "Testovací režim"
   thank_you_for_your_order: "Děkujeme za Váš nákup. Doporučujeme Vám vytisknout si kopii této stránky."
-  there_were_problems_with_the_following_fields: "Jsou problémy v následujících oblastech"
+  there_were_problems_with_the_following_fields: "Nastaly problémy v následujících oblastech"
   this_file_language: "Čeština (CS)"
   thumbnail: "Náhled obrázku"
   to_add_variants_you_must_first_define: "Pro přidání variant musíte nejprve definovat."
