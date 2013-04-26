@@ -397,12 +397,12 @@ cs:
   date_range: "Datum (od-do)"
   debit: Dluh
   default: Výchozí
-  default_meta_description: "Výchozí Meta Popis"
-  default_meta_keywords: "Výchozí Meta Klíčová Slova"
-  default_seo_title: "Výchozí Seo Záhlaví"
-  default_tax: "Výchozí Daň"
-  default_tax_zone: "Výchozí Daňova Zóna"
-  defined_paperclip_styles: "Popsat styl sponky"
+  default_meta_description: "Výchozí meta popis"
+  default_meta_keywords: "Výchozí meta klíčová slova"
+  default_seo_title: "Výchozí seo záhlaví"
+  default_tax: "Výchozí daň"
+  default_tax_zone: "Výchozí daňová zóna"
+  defined_paperclip_styles: "Definované styly Paperclipu"
   delete: Vymazat
   delivery: Dodávka
   depth: Hloubka
@@ -602,6 +602,7 @@ cs:
   max_items: "Maximum položek"
   meta_description: "Popis (meta)"
   meta_keywords: "Klíčová slova (meta)"
+  meta_title: "Název (meta)"
   metadata: Metadata
   minimal_amount: "Minimální částka"
   missing_required_information: "Chybí nezbytné informace"
@@ -650,9 +651,11 @@ cs:
   no_items_in_cart: "V košíku není žádné zboží"
   no_match_found: "Nebyla nalezena žádná shoda"
   no_orders_found: "Nebyly nalezeny žádné objednávky"
+  no_payment_methods_found: "Nebyly nalezeny žádné způsoby platby"
   no_products_found: "Nebylo nalezeno žádné zboží"
   no_promotions_found: "Nebyly nalezeny žádné propagace"
   no_results: "Žádné výsledky"
+  no_shipping_methods_found: "Nebyly nalezeny žádné způsoby dopravy"
   no_tracking_present: "Sledování zásilky není dostupné"
   no_rules_added: "Žádné přidané pravidla"
   no_user_found: "Nebyl nalezen žádný uživatel s touto emailovou adresou"
@@ -672,6 +675,7 @@ cs:
     product_not_deleted: "Zboží nelze odstranit"
     variant_deleted: "Varianta odstraněna"
     variant_not_deleted: "Variantu nelze odstranit"
+  on_demand: "Na objednávku"
   on_hand: Dostupný
   one_default_category_with_default_tax_rate: "Měli byste konfigurovat přesně jednu výchozí kategorii daňové sazby Vaši zemi."
   operation: Operace
@@ -1134,7 +1138,7 @@ cs:
   ssl_will_not_be_used_in_staging_mode: "SSL nebude použito při pracovním řežimu."
   start: Začátek
   start_date: "Platné od"
-  state: Stav
+  state: "Stát"
   states_required: "Stát povinen"
   state_based: "Založeno na státu"
   state_setting_description: "Spravovat seznam států nebo provincií, spojených s každou zemí."
