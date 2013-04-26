@@ -488,7 +488,7 @@ cs:
   finalized_payments: "Neuzavřené platby"
   first_item: "Cena první položky"
   first_name: "Křestní jméno"
-  first_name_begins_with: "Jméno se začíná z "
+  first_name_begins_with: "Jméno se začíná na"
   filter_results: "Zobrazit výsledky"
   flat_percent: "Paušál (procent)"
   flat_rate_amount: "Paušál (množství)"
@@ -561,7 +561,7 @@ cs:
   landing_page_rule: 
     path: Cesta
   last_name: Příjmení
-  last_name_begins_with: "Příjmení začíná z"
+  last_name_begins_with: "Příjmení začíná na"
   learn_more: "Dozvědět se více"
   leave_blank_to_not_change: "(ponechte prázdné, pokud nechcete to změnit)"
   list: Vypsat
@@ -720,7 +720,7 @@ cs:
     adjustments: "Úpravy"
     awaiting_return: "Čeká na vrácení"
     canceled: "Zrušena"
-    cart: Košik
+    cart: "Košík"
     complete: "Dokončení"
     confirm: "Potvrzena"
     delivery: "Doprava zboží"
