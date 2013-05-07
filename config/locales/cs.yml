@@ -297,7 +297,7 @@ cs:
   back_to_shipping_categories: "Zpět na seznam kategorií dopravy"
   back_to_shipping_methods_list: "Zpět na seznam metod dopravy"
   back_to_states_list: "Zpět na seznam států"
-  back_to_store: "Zpět na obchod"
+  back_to_store: "Zpět do obchodu"
   back_to_tax_categories_list: "Zpět na seznam kategorií daňě"
   back_to_tax_rates_list: 'Zpět na seznam sazeb daňě'
   back_to_taxonomies_list: "Zpět na seznam taxonomy"
@@ -459,8 +459,9 @@ cs:
       no_payment_methods_available: "Nejsou k dispozici žádné způsoby platby"
       no_shipping_methods_available: "Způsoby dopravy nejsou dostupné pro zvolené místo, změňte prosím adresu a zkuste to znovu."
   errors_prohibited_this_record_from_being_saved: 
-    one: "Chyba v ukládání tohoto záznamu"
-    other: "Chyby v ukládání tohoto záznamu"
+    one: "Chyba při ukládání tohoto záznamu"
+    few: "Chyby při ukládání tohoto záznamu"
+    other: "Chyby při ukládání tohoto záznamu"
   event: Událost
   events: 
     spree: 
@@ -729,6 +730,7 @@ cs:
     resumed: "Obnovena"
     returned: "Vrácena"
     skrill: "Skrill"
+  order_summary: "Shrnutí objednávky"
   order_sure_want_to: "Jste si jisti, že chcete %{event} tuto objednávku?"
   order_total: "Celková cena objednávky"
   order_total_message: "Celková suma, která bude odečtena z Vaší karty"
