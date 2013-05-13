@@ -485,8 +485,8 @@ cs:
   extensions: Rozměry
   filename: "Název souboru"
   final_confirmation: "Závěrečné potvrzení"
-  finalize: Dokončit
-  finalized_payments: "Neuzavřené platby"
+  finalize: "Dokončit"
+  finalized_payments: "Uzavřené platby"
   first_item: "Cena první položky"
   first_name: "Křestní jméno"
   first_name_begins_with: "Jméno se začíná na"
@@ -498,8 +498,8 @@ cs:
   flexible_rate: "Pružná sazba"
   forgot_password: "Zapomenuté heslo"
   free_shipping: "Doprava zdarma"
-  from_state: "From State"
-  front_end: "Front End"
+  from_state: "Ze stavu"
+  front_end: "Veřejná část"
   full_name: "Celé jméno"
   gateway: "Platební brána"
   gateway_config_unavailable: "Vchod není k dispozici pro prostředí"
