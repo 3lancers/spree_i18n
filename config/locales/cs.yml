@@ -689,7 +689,7 @@ cs:
   or: nebo
   or_over_price: "%{price} or over"
   order: Objednávka
-  order_adjustments: "Order adjustments"
+  order_adjustments: "Úpravy objednávky"
   order_confirmation_note: "Potvrzení o objednání"
   order_date: "Datum objednání"
   order_details: "Detail objednávky"
